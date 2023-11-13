@@ -27,9 +27,11 @@ def hello_world():
 
         # user input
         np_arr = floatsome_to_np_array(text).reshape(1, -1)
-        pkl_filename = "TrainedModel/proj_pickle.pkl"
+        print("float to array done")
+        pkl_filename = "./TrainedModel/proj_pickle.pkl"
         with open(pkl_filename, "rb") as file:
             model = pickle.load(file)
+            print("model loaded")
         plot_graphs(model=model, new_input_arr=np_arr, output_file=path)
         return render_template("index.html", href=path)
 
@@ -45,7 +47,10 @@ def floatsome_to_np_array(floats_str):
     floats = np.array([float(x) for x in floats_str.split(",") if is_float(x)])
     return floats.reshape(len(floats), 1)
 
-df = pd.read_csv("clean_data.csv")
+
+df = pd.read_csv("./clean_data.csv")
+
+
 def plot_graphs(model, new_input_arr, output_file):
     fig = make_subplots(rows=1, cols=2)
     boxplot1 = go.Box(
