@@ -1,5 +1,7 @@
 Download Credit Card Fraud Dataset: https://georgetown.box.com/s/65jl1c98qj7m3cniq88ntx9t84bzsd4k
 
+Link to ML Application Demo: https://lemon-mud-15250de852244e8a8f36703b577da8bd.azurewebsites.net/
+
 Sample feature vectors for prediction:
 
 1. `655,0,45758.71,45758.71,0.0,0.0,0.0`
