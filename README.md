@@ -1,6 +1,6 @@
 Download the Full Credit Card Fraud Dataset [here](https://georgetown.box.com/s/65jl1c98qj7m3cniq88ntx9t84bzsd4k).
 
-Link to ML Application Demo: https://blue-meadow-6bcec3618f4848d883451c94979028a9.azurewebsites.net/
+Visit the Credit Card Fraud Detection App [here](https://blue-meadow-6bcec3618f4848d883451c94979028a9.azurewebsites.net/)
 
 Sample feature vectors for prediction:
 
